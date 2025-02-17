@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%sveltekit.assets%/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    %sveltekit.head%
+</head>
+
+<body data-sveltekit-preload-data="hover">
+
+    <pre>path:: my-app\src\app.html</pre>
+
+    <div style="display: contents">%sveltekit.body%</div>
+    <!--  {* это НЕПРАВИЛЬНО *} -->
+    <!-- <script type="text/javascript" src="/my-app/src/lib/index.js"></script> -->
+    <!-- {* это ПРАВИЛЬНО *} -->
+    <!-- <script type="text/javascript" src="/src/lib/index.js"></script> -->
+</body>
+
+</html>
